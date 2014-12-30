@@ -1,5 +1,15 @@
+#+STARTUP: inlineimages
+
 * TODO Add a basic manual.
 At this stage this will likely be just an Org-Mode document and lack a narrative. It does however need to present all commands and options in a structured manner.
+* Technical Template
+** how to delimit symbols
+** include screenshots
+[[file:files/magit_screen.png]]
+
+This is an inline image.
+** exclude certain parts in one of the output formats
+** link to Git manpage resp. (?) web docs.
 * Commands
 * Options
 * API
