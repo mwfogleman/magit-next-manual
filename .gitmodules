@@ -1,0 +1,3 @@
+[submodule "magit.github.io"]
+	path = magit.github.io
+	url = https://github.com/magit/magit.github.io
