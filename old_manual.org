@@ -2,10 +2,6 @@
 
 * Magit User Manual
 
-Next: [[#Introduction][Introduction]], Up: [[dir.html#Top][(dir)]]  
-
-* Magit User Manual
-
 Magit is an interface to the version control system Git, implemented as
 an extension to Emacs. Magit supports GNU Emacs version 22 or later. It
 may work with other emacsen, but Magit developers do not intend to
@@ -13,38 +9,33 @@ investigate and fix bugs that only appear in unsupported versions.
 Patches to fix bugs in other emacsen or volunteers to maintain
 compatibility are still welcome.
 
-| • [[#Introduction][Introduction]]:                                       |      |    |
-| • [[#Acknowledgments][Acknowledgments]]:                                 |      |    |
-| • [[#Sections][Sections]]:                                               |      |    |
-| • [[#Status][Status]]:                                                   |      |    |
-| • [[#Untracked-files][Untracked files]]:                                 |      |    |
-| • [[#Staging-and-Committing][Staging and Committing]]:                   |      |    |
-| • [[#History][History]]:                                                 |      |    |
-| • [[#Reflogs][Reflogs]]:                                                 |      |    |
-| • [[#Commit-Buffer][Commit Buffer]]:                                     |      |    |
-| • [[#Diffing][Diffing]]:                                                 |      |    |
-| • [[#Tagging][Tagging]]:                                                 |      |    |
-| • [[#Resetting][Resetting]]:                                             |      |    |
-| • [[#Stashing][Stashing]]:                                               |      |    |
-| • [[#Branches-and-Remotes][Branches and Remotes]]:                       |      |    |
-| • [[#Wazzup][Wazzup]]:                                                   |      |    |
-| • [[#Merging][Merging]]:                                                 |      |    |
-| • [[#Rebasing][Rebasing]]:                                               |      |    |
-| • [[#Interactive-Rebasing][Interactive Rebasing]]:                       |      |    |
-| • [[#Rewriting][Rewriting]]:                                             |      |    |
-| • [[#Pushing-and-Pulling][Pushing and Pulling]]:                         |      |    |
-| • [[#Submodules][Submodules]]:                                           |      |    |
-| • [[#Bisecting][Bisecting]]:                                             |      |    |
-| • [[#Using-Magit-Extensions][Using Magit Extensions]]:                   |      |    |
-| • [[#Using-Git-Directly][Using Git Directly]]:                           |      |    |
-| • [[#Customization][Customization]]:                                     |      |    |
-| • [[#Frequently-Asked-Questions][Frequently Asked Questions]]:           |      |    |
-| • [[#GNU-Free-Documentation-License][GNU Free Documentation License]]:   |      |    |
-
---------------
-
-Next: [[#Acknowledgments][Acknowledgments]], Previous: [[#Top][Top]],
-Up: [[#Top][Top]]  
+[[#Introduction][Introduction]]
+[[#Acknowledgments][Acknowledgments]]
+[[#Sections][Sections]]
+[[#Status][Status]]
+[[#Untracked-files][Untracked files]]
+[[#Staging-and-Committing][Staging and Committing]]
+[[#History][History]]
+[[#Reflogs][Reflogs]]
+[[#Commit-Buffer][Commit Buffer]]
+[[#Diffing][Diffing]]
+[[#Tagging][Tagging]]
+[[#Resetting][Resetting]]
+[[#Stashing][Stashing]]
+[[#Branches-and-Remotes][Branches and Remotes]]
+[[#Wazzup][Wazzup]]
+[[#Merging][Merging]]
+[[#Rebasing][Rebasing]]
+[[#Interactive-Rebasing][Interactive Rebasing]]
+[[#Rewriting][Rewriting]]
+[[#Pushing-and-Pulling][Pushing and Pulling]]
+[[#Submodules][Submodules]]
+[[#Bisecting][Bisecting]]
+[[#Using-Magit-Extensions][Using Magit Extensions]]
+[[#Using-Git-Directly][Using Git Directly]]
+[[#Customization][Customization]]
+[[#Frequently-Asked-Questions][Frequently Asked Questions]]
+[[#GNU-Free-Documentation-License][GNU Free Documentation License]]
 
 ** 1 Introduction
 
@@ -75,11 +66,6 @@ Naturally, Magit runs the =git= command to do most of the work. The
 =*magit-process*= buffer contains the transcript of the most recent
 command. You can switch to it with $.
 
---------------
-
-Next: [[#Sections][Sections]], Previous:
-[[#Introduction][Introduction]], Up: [[#Top][Top]]  
-
 ** 2 Acknowledgments
 
 Marius Vollmer started the whole project. Thanks !
@@ -100,11 +86,6 @@ Thanks!
 Alexey Voinov fixed bugs. Thanks!
 
 Rémi Vanicat helped with Tramp support. Thanks!
-
---------------
-
-Next: [[#Status][Status]], Previous:
-[[#Acknowledgments][Acknowledgments]], Up: [[#Top][Top]]
 
 ** 3 Sections
 
@@ -154,11 +135,6 @@ additional, more mnemonic keys: M-h (hide) and M-H (hide all). Likewise
 In other buffers than the status buffer, M-h, M-H, M-s, and M-S might
 work on different levels than on 2 and 4, but they keep their general
 meaning: M-H hides all detail, and M-S shows everything.
-
---------------
-
-Next: [[#Untracked-files][Untracked files]], Previous:
-[[#Sections][Sections]], Up: [[#Top][Top]]  
 
 ** 4 Status
 
@@ -219,11 +195,6 @@ During a history rewriting session, the status buffer shows the /Pending
 changes/ and /Pending commits/ sections. See [[#Rewriting][Rewriting]]
 for more details.
 
---------------
-
-Next: [[#Staging-and-Committing][Staging and Committing]], Previous:
-[[#Status][Status]], Up: [[#Top][Top]]  
-
 ** 5 Untracked files
 
 Untracked files are shown in the /Untracked files/ section.
@@ -247,11 +218,6 @@ similar to i but will add the file to =.git/info/exclude= instead.
 To delete an untracked file forever, use k. If point is on the
 /Untracked files/ section title when you hit k, all untracked files are
 deleted.
-
---------------
-
-Next: [[#History][History]], Previous: [[#Untracked-files][Untracked
-files]], Up: [[#Top][Top]]  
 
 ** 6 Staging and Committing
 
@@ -342,11 +308,6 @@ Typing C will also pop up the change description buffer, but in
 addition, it will try to insert a ChangeLog-style entry for the change
 that point is in.
 
---------------
-
-Next: [[#Reflogs][Reflogs]], Previous:
-[[#Staging-and-Committing][Staging and Committing]], Up: [[#Top][Top]]  
-
 ** 7 History
 
 To show the repository history of your current head, type l l. A new
@@ -410,11 +371,6 @@ Some commands, such as =, will use the current commit and the marked
 commit as implicit arguments. Other commands will offer the marked
 commit as a default when prompting for their arguments.
 
---------------
-
-Next: [[#Commit-Buffer][Commit Buffer]], Previous:
-[[#History][History]], Up: [[#Top][Top]]  
-
 ** 8 Reflogs
 
 You can use l h and l H to browse your /reflog/, the local history of
@@ -423,11 +379,6 @@ while l h will show the reflog of =HEAD=.
 
 The resulting buffer is just like the buffer produced by l l and l L
 that shows the commit history.
-
---------------
-
-Next: [[#Diffing][Diffing]], Previous: [[#Reflogs][Reflogs]], Up:
-[[#Top][Top]]  
 
 ** 9 Commit Buffer
 
@@ -455,11 +406,6 @@ visiting a referenced commit you can type C-c C-b to get back to where
 you came from. To go forward in the history, type C-c C-f. There are
 also =[back]= and =[forward]= buttons at the bottom of the buffer.
 
---------------
-
-Next: [[#Tagging][Tagging]], Previous: [[#Commit-Buffer][Commit
-Buffer]], Up: [[#Top][Top]]  
-
 ** 10 Diffing
 
 Magit typically shows diffs in the "unified" format.
@@ -481,11 +427,6 @@ to that region.
 
 Typing v will apply the selected changes in reverse.
 
---------------
-
-Next: [[#Resetting][Resetting]], Previous: [[#Diffing][Diffing]], Up:
-[[#Top][Top]]  
-
 ** 11 Tagging
 
 Typing t t will make a lightweight tag. Typing t a will make an
@@ -493,11 +434,6 @@ annotated tag. It will put you in the normal =*magit-log-edit= buffer
 for writing commit messages, but typing C-c C-c in it will make the tag
 instead. This is controlled by the =Tag= field that will be added to the
 =*magit-log-edit*= buffer. You can edit it, if you like.
-
---------------
-
-Next: [[#Stashing][Stashing]], Previous: [[#Tagging][Tagging]], Up:
-[[#Top][Top]]  
 
 ** 12 Resetting
 
@@ -529,11 +465,6 @@ You can give a prefix to x if you want to reset both the current head
 and your working tree to a given commit. This is the same as first using
 an unprefixed x to reset only the head, and then using X.
 
---------------
-
-Next: [[#Branches-and-Remotes][Branches and Remotes]], Previous:
-[[#Resetting][Resetting]], Up: [[#Top][Top]]  
-
 ** 13 Stashing
 
 You can create a new stash with z z. Your stashes will be listed in the
@@ -556,11 +487,6 @@ pop up a buffer with the description of the stash and scroll it, typing
 RET will move point into that buffer. Using C-u RET will move point into
 that buffer in other window.
 
---------------
-
-Next: [[#Wazzup][Wazzup]], Previous: [[#Stashing][Stashing]], Up:
-[[#Top][Top]]  
-
 ** 14 Branches and Remotes
 
 The current branch is indicated in the header of the status buffer. If
@@ -573,15 +499,10 @@ buffer called =*magit-branches*=. It displays information about branches
 and remotes and offers a local key map for shorter key bindings. The two
 interaction methods are described in more details below.
 
-| • [[#Branches-Popup][Branches Popup]]:                                   |      |    |
-| • [[#Remotes-Popup][Remotes Popup]]:                                     |      |    |
-| • [[#Branches-in-the-Branch-Manager][Branches in the Branch Manager]]:   |      |    |
-| • [[#Remotes-in-the-Branch-Manager][Remotes in the Branch Manager]]:     |      |    |
-
---------------
-
-Next: [[#Remotes-Popup][Remotes Popup]], Up:
-[[#Branches-and-Remotes][Branches and Remotes]]  
+[[#Branches-Popup][Branches Popup]]
+[[#Remotes-Popup][Remotes Popup]]
+[[#Branches-in-the-Branch-Manager][Branches in the Branch Manager]]
+[[#Remotes-in-the-Branch-Manager][Remotes in the Branch Manager]]
 
 *** 14.1 Branches Popup
 
@@ -612,12 +533,6 @@ dragons...
 
 Typing b v will launch the branch manager.
 
---------------
-
-Next: [[#Branches-in-the-Branch-Manager][Branches in the Branch
-Manager]], Previous: [[#Branches-Popup][Branches Popup]], Up:
-[[#Branches-and-Remotes][Branches and Remotes]]  
-
 *** 14.2 Remotes Popup
 
 Typing M will display a popup menu to manipulate remotes.
@@ -627,12 +542,6 @@ To add a new remote, type M a.
 To delete a remote type M k.
 
 Typing M r will let you rename a remote.
-
---------------
-
-Next: [[#Remotes-in-the-Branch-Manager][Remotes in the Branch Manager]],
-Previous: [[#Remotes-Popup][Remotes Popup]], Up:
-[[#Branches-and-Remotes][Branches and Remotes]]  
 
 *** 14.3 Branches in the Branch Manager
 
@@ -659,11 +568,6 @@ Typing r on a branch will rename it.
 
 Typing T on a local branch, changes which remote branch it tracks.
 
---------------
-
-Previous: [[#Branches-in-the-Branch-Manager][Branches in the Branch
-Manager]], Up: [[#Branches-and-Remotes][Branches and Remotes]]  
-
 *** 14.4 Remotes in the Branch Manager
 
 In the branch manager, each remote is displayed on a separate line. The
@@ -676,11 +580,6 @@ Typing a will add a new remote.
 Typing k will delete the remote in the current line.
 
 Typing r on a remote will rename it.
-
---------------
-
-Next: [[#Merging][Merging]], Previous: [[#Branches-and-Remotes][Branches
-and Remotes]], Up: [[#Top][Top]]  
 
 ** 15 Wazzup
 
@@ -698,11 +597,6 @@ branch will be offered as the default for a merge.
 Hitting i on a branch title will ignore this branch in the wazzup view.
 You can use C-u w to show all branches, including the ignored ones.
 Hitting i on an already ignored branch in that view will unignore it.
-
---------------
-
-Next: [[#Rebasing][Rebasing]], Previous: [[#Wazzup][Wazzup]], Up:
-[[#Top][Top]]  
 
 ** 16 Merging
 
@@ -728,11 +622,6 @@ You can not stage individual hunks one by one as you resolve them, you
 can only stage whole files once all conflicts in them have been
 resolved.
 
---------------
-
-Next: [[#Interactive-Rebasing][Interactive Rebasing]], Previous:
-[[#Merging][Merging]], Up: [[#Top][Top]]  
-
 ** 17 Rebasing
 
 Typing R in the status buffer will initiate a rebase or, if one is
@@ -748,11 +637,6 @@ will also ask you whether to continue the rebase.
 Of course, you can initiate a rebase in any number of ways, by
 configuring =git pull= to rebase instead of merge, for example. Such a
 rebase can be finished with R as well.
-
---------------
-
-Next: [[#Rewriting][Rewriting]], Previous: [[#Rebasing][Rebasing]], Up:
-[[#Top][Top]]  
 
 ** 18 Interactive Rebasing
 
@@ -774,11 +658,6 @@ from the list, and reordering commits. You can finish editing the buffer
 and proceed with the rebase by pressing C-c C-c, which is bound to
 =server-edit= in this mode, and you can abort the rebase with C-c C-k,
 just like when editing a commit message in Magit.
-
---------------
-
-Next: [[#Pushing-and-Pulling][Pushing and Pulling]], Previous:
-[[#Interactive-Rebasing][Interactive Rebasing]], Up: [[#Top][Top]]  
 
 ** 19 Rewriting
 
@@ -843,11 +722,6 @@ head and the current head. You can use it to review the changes that you
 still need to rewrite, and you can apply hunks from it, like from any
 other diff.
 
---------------
-
-Next: [[#Submodules][Submodules]], Previous: [[#Rewriting][Rewriting]],
-Up: [[#Top][Top]]  
-
 ** 20 Pushing and Pulling
 
 Magit will run =git push= when you type P P. If you give a prefix
@@ -882,11 +756,6 @@ When the remote branch has changes that are not in the current branch,
 Magit shows them in a section called /Unpulled changes/. Typing F F will
 fetch and merge them into the current branch.
 
---------------
-
-Next: [[#Bisecting][Bisecting]], Previous:
-[[#Pushing-and-Pulling][Pushing and Pulling]], Up: [[#Top][Top]]  
-
 ** 21 Submodules
 
 -  o u :: Update the submodules, with a prefix argument it will
@@ -898,11 +767,6 @@ Next: [[#Bisecting][Bisecting]], Previous:
 
 -  o s :: Synchronizes submodules' remote URL configuration setting to
    the value specified in .gitmodules.
-
---------------
-
-Next: [[#Using-Magit-Extensions][Using Magit Extensions]], Previous:
-[[#Submodules][Submodules]], Up: [[#Top][Top]]  
 
 ** 22 Bisecting
 
@@ -929,23 +793,15 @@ The revisions left to test can be visualized in gitk with B v.
 
 When you're finished bisecting you have to reset the session with B r.
 
---------------
-
-Next: [[#Using-Git-Directly][Using Git Directly]], Previous:
-[[#Bisecting][Bisecting]], Up: [[#Top][Top]]  
-
 ** 23 Magit Extensions
 
-| • [[#Activating-extensions][Activating extensions]]:               |      |    |
-| • [[#Interfacing-with-Subversion][Interfacing with Subversion]]:   |      |    |
-| • [[#Interfacing-with-Topgit][Interfacing with Topgit]]:           |      |    |
-| • [[#Interfacing-with-StGit][Interfacing with StGit]]:             |      |    |
-| • [[#Developing-Extensions][Developing Extensions]]:               |      |    |
+[[#Activating-extensions][Activating extensions]]
+[[#Interfacing-with-Subversion][Interfacing with Subversion]]
+[[#Interfacing-with-Topgit][Interfacing with Topgit]]
+[[#Interfacing-with-StGit][Interfacing with StGit]]
+[[#Developing-Extensions][Developing Extensions]]
 
---------------
-
-Next: [[#Interfacing-with-Subversion][Interfacing with Subversion]], Up:
-[[#Using-Magit-Extensions][Using Magit Extensions]]  
+[[#Using-Magit-Extensions][Using Magit Extensions]]
 
 *** 23.1 Activating extensions
 
@@ -987,12 +843,6 @@ be loaded only for the current one.
 Note the =--add= flag, which means that each extension gets its own line
 in the =config= file.
 
---------------
-
-Next: [[#Interfacing-with-Topgit][Interfacing with Topgit]], Previous:
-[[#Activating-extensions][Activating extensions]], Up:
-[[#Using-Magit-Extensions][Using Magit Extensions]]  
-
 *** 23.2 Interfacing with Subversion
 
 Typing N r runs =git svn rebase=, typing N c runs =git svn dcommit= and
@@ -1002,12 +852,6 @@ N s will prompt you for a (numeric, Subversion) revision and then search
 for a corresponding Git sha1 for the commit. This is limited to the path
 of the remote Subversion repository. With a prefix (C-u N s the user
 will also be prompted for a branch to search in.
-
---------------
-
-Next: [[#Interfacing-with-StGit][Interfacing with StGit]], Previous:
-[[#Interfacing-with-Subversion][Interfacing with Subversion]], Up:
-[[#Using-Magit-Extensions][Using Magit Extensions]]  
 
 *** 23.3 Interfacing with Topgit
 
@@ -1029,12 +873,6 @@ Pulling]]) such a branch is slightly different, since it requires
 updating the various dependencies of that branch. This should be mostly
 transparent, except in case of conflicts.
 
---------------
-
-Next: [[#Developing-Extensions][Developing Extensions]], Previous:
-[[#Interfacing-with-Topgit][Interfacing with Topgit]], Up:
-[[#Using-Magit-Extensions][Using Magit Extensions]]  
-
 *** 23.4 Interfacing with StGit
 
 StGit (http://www.procode.org/stgit) is a Python application providing
@@ -1053,12 +891,6 @@ well as you can delete them using the "discard" action.
 
 Additionally, the =magit-stgit-refresh= and =magit-stgit-rebase=
 commands let you perform the respective StGit operations.
-
---------------
-
-Previous: [[#Interfacing-with-StGit][Interfacing with StGit]], Up:
-[[#Using-Magit-Extensions][Using Magit Extensions]]  
-
 *** 23.5 Developing Extensions
 
 Magit provides a generic mechanism to allow cooperation with Git-related
@@ -1156,22 +988,11 @@ items, which won't happen when the minor mode is off.
 Don't forget to call =magit-refresh= when the minor mode is toggled
 interactively, so that the relevant sections can be shown or hidden.
 
---------------
-
-Next: [[#Customization][Customization]], Previous:
-[[#Using-Magit-Extensions][Using Magit Extensions]], Up: [[#Top][Top]]  
-
 ** 24 Using Git Directly
 
 For situations when Magit doesn't do everything you need, you can run
 raw Git commands using :. This will prompt for a Git command, run it,
 and refresh the status buffer. The output can be viewed by typing $.
-
---------------
-
-Next: [[#Frequently-Asked-Questions][Frequently Asked Questions]],
-Previous: [[#Using-Git-Directly][Using Git Directly]], Up: [[#Top][Top]]
- 
 
 ** 25 Customization
 
@@ -1294,22 +1115,11 @@ The following variables can be used to adapt Magit to your workflow:
 -  =magit-topgit-branch-prefix= :: Convention prefix for topic branch
    creation.
 
---------------
-
-Next: [[#GNU-Free-Documentation-License][GNU Free Documentation
-License]], Previous: [[#Customization][Customization]], Up:
-[[#Top][Top]]  
-
 ** 26 Frequently Asked Questions
 
-| • [[#FAQ-_002d-Changes][FAQ - Changes]]:                       |      |    |
-| • [[#FAQ-1-_002d-Troubleshooting][FAQ 1 - Troubleshooting]]:   |      |    |
-| • [[#FAQ-2-_002d-Display-issues][FAQ 2 - Display issues]]:     |      |    |
-
---------------
-
-Next: [[#FAQ-1-_002d-Troubleshooting][FAQ 1 - Troubleshooting]], Up:
-[[#Frequently-Asked-Questions][Frequently Asked Questions]]  
+[[#FAQ-_002d-Changes][FAQ - Changes]]
+[[#FAQ-1-_002d-Troubleshooting][FAQ 1 - Troubleshooting]]
+[[#FAQ-2-_002d-Display-issues][FAQ 2 - Display issues]]
 
 *** 26.1 Changes
 
@@ -1318,19 +1128,9 @@ Next: [[#FAQ-1-_002d-Troubleshooting][FAQ 1 - Troubleshooting]], Up:
    that need to be activated explicitly (potentially on a per-repository
    basis). See [[#Activating-extensions][Activating extensions]].
 
---------------
-
-Next: [[#FAQ-2-_002d-Display-issues][FAQ 2 - Display issues]], Previous:
-[[#FAQ-_002d-Changes][FAQ - Changes]], Up:
-[[#Frequently-Asked-Questions][Frequently Asked Questions]]  
-
 *** 26.2 Troubleshooting
 
-| • [[#FAQ-1_002d1][FAQ 1-1]]:   |      | How do I get raw error messages from git?   |
-
---------------
-
-Up: [[#FAQ-1-_002d-Troubleshooting][FAQ 1 - Troubleshooting]]  
+[[#FAQ-1_002d1][FAQ 1-1]]
 
 **** 26.2.1 Question 1.1
 
@@ -1341,16 +1141,12 @@ How do I get raw error messages from git?
 If a command goes wrong, you can hit $ to access the git process buffer.
 There, the entire trace for the latest operation is available.
 
---------------
 
-Previous: [[#FAQ-1-_002d-Troubleshooting][FAQ 1 - Troubleshooting]], Up:
 [[#Frequently-Asked-Questions][Frequently Asked Questions]]  
 
 *** 26.3 Display issues
 
-| • [[#FAQ-2_002d1][FAQ 2-1]]:   |      | How do I fix international characters display?   |
-
---------------
+[[#FAQ-2_002d1][FAQ 2-1]]
 
 Up: [[#FAQ-2-_002d-Display-issues][FAQ 2 - Display issues]]  
 
@@ -1376,11 +1172,6 @@ or
 #+END_EXAMPLE
 
 The latter might not work in old versions of git.
-
---------------
-
-Previous: [[#Frequently-Asked-Questions][Frequently Asked Questions]],
-Up: [[#Top][Top]]  
 
 ** Appendix A GNU Free Documentation License
 
@@ -1795,5 +1586,3 @@ If your document contains nontrivial examples of program code, we
 recommend releasing these examples in parallel under your choice of free
 software license, such as the GNU General Public License, to permit
 their use in free software.
-
---------------
