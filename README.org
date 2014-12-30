@@ -1,0 +1,9 @@
+* Overview
+In order to be released, Magit's "next" branch needs a manual. Jonas / @tarsius wants it to be created as an .org file and exported to .html and .info. This is a playground for developing such a manual.
+* Branches
+** master
+A clean branch. Includes the old manual as a submodule, and the .org result of running pandoc on it.
+** cleanup_old
+Potentially faulty attempts to clean up the old manual.
+** template
+Notes for a template, as requested by Jonas / @tarsius.
