@@ -1,0 +1,10 @@
+* TODO Add a basic manual.
+At this stage this will likely be just an Org-Mode document and lack a narrative. It does however need to present all commands and options in a structured manner.
+* Commands
+* Options
+* API
+In the manual, document important aspects of the API so that authors of third-party extensions can get started.
+** How to call git.
+** How to create sections.
+** Low-level hooks.
+** Instructions for theme authors.
