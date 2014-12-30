@@ -2,15 +2,7 @@
 
 * Magit User Manual
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Introduction][Introduction]], Up: [[dir.html#Top][(dir)]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 * Magit User Manual
 
@@ -51,16 +43,8 @@ compatibility are still welcome.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Acknowledgments][Acknowledgments]], Previous: [[#Top][Top]],
 Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 1 Introduction
 
@@ -93,16 +77,8 @@ command. You can switch to it with $.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Sections][Sections]], Previous:
 [[#Introduction][Introduction]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 2 Acknowledgments
 
@@ -127,16 +103,8 @@ Rémi Vanicat helped with Tramp support. Thanks!
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Status][Status]], Previous:
-[[#Acknowledgments][Acknowledgments]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
+[[#Acknowledgments][Acknowledgments]], Up: [[#Top][Top]]
 
 ** 3 Sections
 
@@ -189,16 +157,8 @@ meaning: M-H hides all detail, and M-S shows everything.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Untracked-files][Untracked files]], Previous:
 [[#Sections][Sections]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 4 Status
 
@@ -261,16 +221,8 @@ for more details.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Staging-and-Committing][Staging and Committing]], Previous:
 [[#Status][Status]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 5 Untracked files
 
@@ -298,16 +250,8 @@ deleted.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#History][History]], Previous: [[#Untracked-files][Untracked
 files]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 6 Staging and Committing
 
@@ -400,16 +344,8 @@ that point is in.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Reflogs][Reflogs]], Previous:
 [[#Staging-and-Committing][Staging and Committing]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 7 History
 
@@ -476,16 +412,8 @@ commit as a default when prompting for their arguments.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Commit-Buffer][Commit Buffer]], Previous:
 [[#History][History]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 8 Reflogs
 
@@ -498,16 +426,8 @@ that shows the commit history.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Diffing][Diffing]], Previous: [[#Reflogs][Reflogs]], Up:
 [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 9 Commit Buffer
 
@@ -537,16 +457,8 @@ also =[back]= and =[forward]= buttons at the bottom of the buffer.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Tagging][Tagging]], Previous: [[#Commit-Buffer][Commit
 Buffer]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 10 Diffing
 
@@ -571,16 +483,8 @@ Typing v will apply the selected changes in reverse.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Resetting][Resetting]], Previous: [[#Diffing][Diffing]], Up:
 [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 11 Tagging
 
@@ -592,16 +496,8 @@ instead. This is controlled by the =Tag= field that will be added to the
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Stashing][Stashing]], Previous: [[#Tagging][Tagging]], Up:
 [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 12 Resetting
 
@@ -635,16 +531,8 @@ an unprefixed x to reset only the head, and then using X.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Branches-and-Remotes][Branches and Remotes]], Previous:
 [[#Resetting][Resetting]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 13 Stashing
 
@@ -670,16 +558,8 @@ that buffer in other window.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Wazzup][Wazzup]], Previous: [[#Stashing][Stashing]], Up:
 [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 14 Branches and Remotes
 
@@ -700,16 +580,8 @@ interaction methods are described in more details below.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Remotes-Popup][Remotes Popup]], Up:
 [[#Branches-and-Remotes][Branches and Remotes]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 *** 14.1 Branches Popup
 
@@ -742,17 +614,9 @@ Typing b v will launch the branch manager.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Branches-in-the-Branch-Manager][Branches in the Branch
 Manager]], Previous: [[#Branches-Popup][Branches Popup]], Up:
 [[#Branches-and-Remotes][Branches and Remotes]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 *** 14.2 Remotes Popup
 
@@ -766,17 +630,9 @@ Typing M r will let you rename a remote.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Remotes-in-the-Branch-Manager][Remotes in the Branch Manager]],
 Previous: [[#Remotes-Popup][Remotes Popup]], Up:
 [[#Branches-and-Remotes][Branches and Remotes]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 *** 14.3 Branches in the Branch Manager
 
@@ -805,16 +661,8 @@ Typing T on a local branch, changes which remote branch it tracks.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Previous: [[#Branches-in-the-Branch-Manager][Branches in the Branch
 Manager]], Up: [[#Branches-and-Remotes][Branches and Remotes]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 *** 14.4 Remotes in the Branch Manager
 
@@ -831,16 +679,8 @@ Typing r on a remote will rename it.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Merging][Merging]], Previous: [[#Branches-and-Remotes][Branches
 and Remotes]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 15 Wazzup
 
@@ -861,16 +701,8 @@ Hitting i on an already ignored branch in that view will unignore it.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Rebasing][Rebasing]], Previous: [[#Wazzup][Wazzup]], Up:
 [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 16 Merging
 
@@ -898,16 +730,8 @@ resolved.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Interactive-Rebasing][Interactive Rebasing]], Previous:
 [[#Merging][Merging]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 17 Rebasing
 
@@ -927,16 +751,8 @@ rebase can be finished with R as well.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Rewriting][Rewriting]], Previous: [[#Rebasing][Rebasing]], Up:
 [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 18 Interactive Rebasing
 
@@ -961,16 +777,8 @@ just like when editing a commit message in Magit.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Pushing-and-Pulling][Pushing and Pulling]], Previous:
 [[#Interactive-Rebasing][Interactive Rebasing]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 19 Rewriting
 
@@ -1037,16 +845,8 @@ other diff.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Submodules][Submodules]], Previous: [[#Rewriting][Rewriting]],
 Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 20 Pushing and Pulling
 
@@ -1084,16 +884,8 @@ fetch and merge them into the current branch.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Bisecting][Bisecting]], Previous:
 [[#Pushing-and-Pulling][Pushing and Pulling]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 21 Submodules
 
@@ -1109,16 +901,8 @@ Next: [[#Bisecting][Bisecting]], Previous:
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Using-Magit-Extensions][Using Magit Extensions]], Previous:
 [[#Submodules][Submodules]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 22 Bisecting
 
@@ -1147,16 +931,8 @@ When you're finished bisecting you have to reset the session with B r.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Using-Git-Directly][Using Git Directly]], Previous:
 [[#Bisecting][Bisecting]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 23 Magit Extensions
 
@@ -1168,16 +944,8 @@ Next: [[#Using-Git-Directly][Using Git Directly]], Previous:
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Interfacing-with-Subversion][Interfacing with Subversion]], Up:
 [[#Using-Magit-Extensions][Using Magit Extensions]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 *** 23.1 Activating extensions
 
@@ -1193,32 +961,16 @@ corresponding section and commands (un)available.
 In order to do that automatically (and for every repository), one can
 use for example:
 
-#+BEGIN_HTML
-  <div class="example">
-#+END_HTML
-
 #+BEGIN_EXAMPLE
     (add-hook 'magit-mode-hook 'turn-on-magit-topgit)
 #+END_EXAMPLE
 
-#+BEGIN_HTML
-  </div>
-#+END_HTML
-
 Magit also allows configuring different extensions, based on the git
 repository configuration.
-
-#+BEGIN_HTML
-  <div class="example">
-#+END_HTML
 
 #+BEGIN_EXAMPLE
     (add-hook 'magit-mode-hook 'magit-load-config-extensions)
 #+END_EXAMPLE
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 This will read git configuration variables and activate the relevant
 extensions.
@@ -1227,35 +979,19 @@ For example, after running the following commands, the =topgit=
 extension will be loaded for every repository, while the =svn= one will
 be loaded only for the current one.
 
-#+BEGIN_HTML
-  <div class="example">
-#+END_HTML
-
 #+BEGIN_EXAMPLE
     $ git config --global --add magit.extension topgit
     $ git config --add magit.extension svn
 #+END_EXAMPLE
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 Note the =--add= flag, which means that each extension gets its own line
 in the =config= file.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Interfacing-with-Topgit][Interfacing with Topgit]], Previous:
 [[#Activating-extensions][Activating extensions]], Up:
 [[#Using-Magit-Extensions][Using Magit Extensions]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 *** 23.2 Interfacing with Subversion
 
@@ -1269,17 +1005,9 @@ will also be prompted for a branch to search in.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Interfacing-with-StGit][Interfacing with StGit]], Previous:
 [[#Interfacing-with-Subversion][Interfacing with Subversion]], Up:
 [[#Using-Magit-Extensions][Using Magit Extensions]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 *** 23.3 Interfacing with Topgit
 
@@ -1303,17 +1031,9 @@ transparent, except in case of conflicts.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Developing-Extensions][Developing Extensions]], Previous:
 [[#Interfacing-with-Topgit][Interfacing with Topgit]], Up:
 [[#Using-Magit-Extensions][Using Magit Extensions]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 *** 23.4 Interfacing with StGit
 
@@ -1336,16 +1056,8 @@ commands let you perform the respective StGit operations.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Previous: [[#Interfacing-with-StGit][Interfacing with StGit]], Up:
 [[#Using-Magit-Extensions][Using Magit Extensions]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 *** 23.5 Developing Extensions
 
@@ -1366,21 +1078,13 @@ In particular it allows to:
    In the following example, we use the builtin "stashes" section to
    place our own "foo" one.
 
-   #+BEGIN_HTML
-     <div class="example">
-   #+END_HTML
-
-   #+BEGIN_EXAMPLE
+#+BEGIN_EXAMPLE
        (magit-define-inserter foo ()
          (magit-git-section 'foo
                             "Foo:" 'foo-wash-function
                             "foo" "arg1" "arg2"))
        (add-hook 'magit-after-insert-stashes-hook 'magit-insert-foo)
    #+END_EXAMPLE
-
-   #+BEGIN_HTML
-     </div>
-   #+END_HTML
 
 -  Define new types of objects in those sections.
 
@@ -1390,11 +1094,7 @@ In particular it allows to:
 
    A simple implementation could be:
 
-   #+BEGIN_HTML
-     <div class="example">
-   #+END_HTML
-
-   #+BEGIN_EXAMPLE
+#+BEGIN_EXAMPLE
        (defun foo-wash-function ()
          (let ((foo (buffer-substring (line-beginning-position) (line-end-position))))
            (goto-char (line-beginning-position))
@@ -1403,31 +1103,19 @@ In particular it allows to:
              (forward-line))))
    #+END_EXAMPLE
 
-   #+BEGIN_HTML
-     </div>
-   #+END_HTML
-
-   In this case, every line of the command output is transformed into an
+In this case, every line of the command output is transformed into an
    object of type ='foo=.
 
 -  Alter behavior of generic commands to dispatch them correctly to the
    relevant system, optionally making use of the newly defined types.
 
-   #+BEGIN_HTML
-     <div class="example">
-   #+END_HTML
-
-   #+BEGIN_EXAMPLE
+#+BEGIN_EXAMPLE
        (magit-add-action (item info "discard")
          ((foo)
           (do-something-meaningful-for-discarding-a-foo)))
    #+END_EXAMPLE
 
-   #+BEGIN_HTML
-     </div>
-   #+END_HTML
-
-   This will alter the behavior of k, when applied to those objects.
+This will alter the behavior of k, when applied to those objects.
 
 -  Plug a different logic into basic commands, to reflect the presence
    of the extension.
@@ -1437,19 +1125,11 @@ In particular it allows to:
    before the actual core code. Execution stops after the first hook
    that returns a non-nil value. This leaves room for extension logic.
 
-   #+BEGIN_HTML
-     <div class="example">
-   #+END_HTML
-
-   #+BEGIN_EXAMPLE
+#+BEGIN_EXAMPLE
        (add-hook 'magit-create-branch-command-hook 'foo-create-branch)
    #+END_EXAMPLE
 
-   #+BEGIN_HTML
-     </div>
-   #+END_HTML
-
-   The function =foo-create-branch= will be called each time an attempt
+The function =foo-create-branch= will be called each time an attempt
    is made to create a branch, and can, for example, react to a certain
    name convention.
 
@@ -1478,16 +1158,8 @@ interactively, so that the relevant sections can be shown or hidden.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Customization][Customization]], Previous:
 [[#Using-Magit-Extensions][Using Magit Extensions]], Up: [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 24 Using Git Directly
 
@@ -1497,17 +1169,9 @@ and refresh the status buffer. The output can be viewed by typing $.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#Frequently-Asked-Questions][Frequently Asked Questions]],
 Previous: [[#Using-Git-Directly][Using Git Directly]], Up: [[#Top][Top]]
  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 25 Customization
 
@@ -1632,17 +1296,9 @@ The following variables can be used to adapt Magit to your workflow:
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#GNU-Free-Documentation-License][GNU Free Documentation
 License]], Previous: [[#Customization][Customization]], Up:
 [[#Top][Top]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 ** 26 Frequently Asked Questions
 
@@ -1652,16 +1308,8 @@ License]], Previous: [[#Customization][Customization]], Up:
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#FAQ-1-_002d-Troubleshooting][FAQ 1 - Troubleshooting]], Up:
 [[#Frequently-Asked-Questions][Frequently Asked Questions]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 *** 26.1 Changes
 
@@ -1672,17 +1320,9 @@ Next: [[#FAQ-1-_002d-Troubleshooting][FAQ 1 - Troubleshooting]], Up:
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Next: [[#FAQ-2-_002d-Display-issues][FAQ 2 - Display issues]], Previous:
 [[#FAQ-_002d-Changes][FAQ - Changes]], Up:
 [[#Frequently-Asked-Questions][Frequently Asked Questions]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 *** 26.2 Troubleshooting
 
@@ -1690,15 +1330,7 @@ Next: [[#FAQ-2-_002d-Display-issues][FAQ 2 - Display issues]], Previous:
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Up: [[#FAQ-1-_002d-Troubleshooting][FAQ 1 - Troubleshooting]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 **** 26.2.1 Question 1.1
 
@@ -1711,16 +1343,8 @@ There, the entire trace for the latest operation is available.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Previous: [[#FAQ-1-_002d-Troubleshooting][FAQ 1 - Troubleshooting]], Up:
 [[#Frequently-Asked-Questions][Frequently Asked Questions]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 *** 26.3 Display issues
 
@@ -1728,15 +1352,7 @@ Previous: [[#FAQ-1-_002d-Troubleshooting][FAQ 1 - Troubleshooting]], Up:
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Up: [[#FAQ-2-_002d-Display-issues][FAQ 2 - Display issues]]  
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 **** 26.3.1 Question 2.1
 
@@ -1748,63 +1364,27 @@ Please make sure your Magit buffer uses a compatible coding system. In
 the particular case of file names, git itself quotes them by default.
 You can disable this with one of the following approaches:
 
-#+BEGIN_HTML
-  <div class="example">
-#+END_HTML
-
 #+BEGIN_EXAMPLE
     $ git config core.quotepath false
 #+END_EXAMPLE
 
-#+BEGIN_HTML
-  </div>
-#+END_HTML
-
 or
-
-#+BEGIN_HTML
-  <div class="example">
-#+END_HTML
 
 #+BEGIN_EXAMPLE
     (setq magit-git-standard-options (append magit-git-standard-options
                                              '("-c" "core.quotepath=false")))
 #+END_EXAMPLE
 
-#+BEGIN_HTML
-  </div>
-#+END_HTML
-
 The latter might not work in old versions of git.
 
 --------------
 
-#+BEGIN_HTML
-  <div class="header">
-#+END_HTML
-
 Previous: [[#Frequently-Asked-Questions][Frequently Asked Questions]],
 Up: [[#Top][Top]]  
 
-#+BEGIN_HTML
-  </div>
-#+END_HTML
-
 ** Appendix A GNU Free Documentation License
 
-#+BEGIN_HTML
-  <div align="center">
-#+END_HTML
-
 Version 1.2, November 2002
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
-
-#+BEGIN_HTML
-  <div class="display">
-#+END_HTML
 
 #+BEGIN_EXAMPLE
     Copyright © 2000,2001,2002 Free Software Foundation, Inc.
@@ -1813,10 +1393,6 @@ Version 1.2, November 2002
     Everyone is permitted to copy and distribute verbatim copies
     of this license document, but changing it is not allowed.
 #+END_EXAMPLE
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 1.  PREAMBLE
 
@@ -2192,10 +1768,6 @@ To use this License in a document you have written, include a copy of
 the License in the document and put the following copyright and license
 notices just after the title page:
 
-#+BEGIN_HTML
-  <div class="smallexample">
-#+END_HTML
-
 #+BEGIN_EXAMPLE
       Copyright (C)  year  your name.
       Permission is granted to copy, distribute and/or modify this document
@@ -2206,26 +1778,14 @@ notices just after the title page:
       Free Documentation License''.
 #+END_EXAMPLE
 
-#+BEGIN_HTML
-  </div>
-#+END_HTML
-
 If you have Invariant Sections, Front-Cover Texts and Back-Cover Texts,
 replace the "with...Texts." line with this:
-
-#+BEGIN_HTML
-  <div class="smallexample">
-#+END_HTML
 
 #+BEGIN_EXAMPLE
         with the Invariant Sections being list their titles, with
         the Front-Cover Texts being list, and with the Back-Cover Texts
         being list.
 #+END_EXAMPLE
-
-#+BEGIN_HTML
-  </div>
-#+END_HTML
 
 If you have Invariant Sections without Cover Texts, or some other
 combination of the three, merge those two alternatives to suit the
