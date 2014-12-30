@@ -10,6 +10,22 @@ At this stage this will likely be just an Org-Mode document and lack a narrative
 This is an inline image.
 ** exclude certain parts in one of the output formats
 ** link to Git manpage resp. (?) web docs.
+** How to export with Pandoc
+#+BEGIN_SRC shell
+  ## Adapted from:
+  ## http://johnmacfarlane.net/pandoc/demos.html
+
+  ## org -> info
+  pandoc manual.org -s -o manual.texi
+  makeinfo manual.texi -o manual.info
+
+  ## org -> HTML
+  pandoc -s manual.org -o manual.html
+
+  ## alternatively,
+  ## HTML with smart quotes, table of contents, CSS, and custom footer:
+  ## pandoc -s -S --toc -c pandoc.css -A footer.html README -o example3.html
+#+END_SRC
 * Commands
 * Options
 * API
